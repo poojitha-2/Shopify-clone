@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopify</title>
+    <style>
+    .arrow{
+        margin-bottom: -4px;
+        color: #000;
+    }
+    .menu-icon{
+        font-size: 40px;
+        color: #000;
+        margin-top: 20px;
+   }
+   .globe{
+        margin-bottom: -3px;
+   }
+   .right-arrow{
+        margin-bottom: -3.5px;
+   }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+        theme: {
+            screens:{
+                smr:'380px',
+                sm:'480px',
+                md:'768px',
+                lg:'976px',
+                lxl:'1100px',
+                lxl1:'1200px'
+            },
+            extend: {
+            colors: {
+                biscuit:'#fbf7ed',
+                gray:'#42474c',
+                darkgreen:'#004c3f',
+                palegreen:'#f3fcf4',
+                green:'#008060',
+            }
+            }
+        }
+        }
+    </script>
+</head>
+<body class="p-0 m-0 box-border">
+    <!-- header-section -->
+    <nav class="bg-biscuit flex justify-between fixed w-full sm:h-30">
+        <div class="flex h-20 space-x-6">
+            <img class="h-12 mx-20 my-3" src="./images/Shopify_logo.svg" alt="">
+            <a class="my-6 hidden lg:block text-xl text-gray  font-semibold" href="#">Start&nbsp;<ion-icon class="arrow" name="chevron-down-sharp"></ion-icon></a>
+            <a class="my-6 hidden lg:block text-xl text-gray  font-semibold" href="#">Sell&nbsp;<ion-icon class="arrow" name="chevron-down-sharp"></ion-icon></a>
+            <a class="my-6 hidden lg:block text-xl text-gray  font-semibold" href="#">Market&nbsp;<ion-icon class="arrow" name="chevron-down-sharp"></ion-icon></a>
+            <a class="my-6 hidden lg:block text-xl text-gray  font-semibold" href="#">Manage&nbsp;<ion-icon class="arrow" name="chevron-down-sharp"></ion-icon></a>
+        </div>
+        <div class="flex  mr-20 space-x-6">
+            <a class="my-6 hidden lg:block text-gray text-xl font-semibold" href="">Pricing</a>
+            <a class="my-6 hidden lg:block text-gray text-xl font-semibold"href="">learn&nbsp;<ion-icon class="arrow" name="chevron-down-sharp"></ion-icon></a>
+            <a class="my-6 hidden lg:block text-gray text-xl font-semibold"href="">Log in</a>
+            <a class="my-4 hidden lg:block text-gray lg:text-xl sm:text-lg font-semibold border-1 border-[#008060] bg-[#008060] px-5 py-2.5 rounded-lg text-white hover:bg-[#004c3f]  "href="">Try For Free</a>
+            <ion-icon class="menu-icon block sm:mr-[60px] lg:hidden" name="reorder-three-outline"></ion-icon>
+        </div>
+    </nav>
+    <!-- End of header-section -->
+    <!-- Sell-online -->
+    <section class=" flex sm:flex-col lg:flex-row bg-biscuit h-100vh w-full pt-40 lg:px-15 ">
+        <div class="w-full lg-w-1/2 px-20">
+            <h1 class="text-3xl lg:text-5xl text-darkgreen font-bold">The easiest way to  sell online in India</h1>
+            <p class="text-gray text-xl mt-8">Try one of the most powerful platforms on the market for free. No technical knowledge needed.</p>
+          <input class=" pl-5 pr-32 py-3 border-2 border-[#000] rounded-lg active:border-4 active:border-[#008060] mt-5 sm:px-5 lg:pr-20" type="text" name="" placeholder="Enter your email address" id="">&nbsp;
+            <p class="sm:pt-6 lg:inline-block"><a class="border-1 border-[#008060] bg-[#008060] px-5 py-3.5 rounded font-semibold text-[#fff] mt-[-8px] hover:bg-[#004c3f] " href="">Try For Free</a></p>
+            <p class="mt-4">Try Shopify free for 14 days, no credit card required. By entering your email, you agree to receive marketing emails from Shopify.</p>
+        </div>
+        <div class="w-full md-w-1/2 ">
+            <img class="h-[450px] sm:justify-items-center " src="./images/hero.jpg" alt="">
+        </div>
+    </section>
+    <!-- End of Sell-online -->
+    <!-- business-section -->
+    <section class="h-[1300px] lg:h-[1330px] md:h-[1300px] sm:h-[2600px] bg-darkgreen  ">
+        <div class="w-full lg-w-1/2 px-20 py-20">
+            <h1 class="text-5xl text-[#fff]">Bring your business online</h1>
+            <p class="mt-6 mb-4 text-[#fff]">Create an ecommerce website backed by powerful tools that help you find customers, drive sales, and manage your day-to-day.</p>
+            <a class="text-[#fff] font-semibold" href="">Explore more examples&nbsp;&nbsp;<ion-icon class="right-arrow" name="arrow-forward-sharp"></ion-icon></a>
+        </div>
+        <div class="w-full justify-items-center grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 px-20 mt-[-40px] space-x-5 gap-y-5">
+            <div class=" text-[#fff] font-semibold">
+                <img class="w-[200px] " src="./images/1.jpg" alt="">
+                <a class="hover:underline mt-3 text-xl" href="">FOOD & DRINK</a>
+                <p class="text-basse">Blue Tokai</p>
+            </div>
+            <div class=" text-[#fff] font-semibold">
+                <img class="w-[200px]" src="./images/2.webp" alt="">
+                <a class="hover:underline mt-3 text-xl" href="">JEWELERY</a>
+                <p class="text-base">Quirksmith</p>
+            </div>
+            <div class=" text-[#fff] font-semibold">
+                <img class="w-[200px]" src="./images/3.webp" alt="">
+                <a class="hover:underline mt-3 text-xl" href="">Electronics</a>
+                <p class="text-base">Crossbeats</p>
+            </div>
+            <div class=" text-[#fff] font-semibold">
+                <img class="w-[200px]" src="./images/4.webp" alt="">
+                <a class="hover:underline mt-3 text-lg" href="">BEAUTY</a>
+                <p class="text-base">Mcaffeine</p>
+            </div>
+            <div class=" text-[#fff] font-semibold sm:hidden lg:block">
+                <img class="w-[200px]" src="./images/5.webp" alt="">
+                <a class="hover:underline mt-3 text-lg" href="">FASHION</a>
+                <p class="text-base">Bunaai</p>
+            </div>
+        </div>
+        <h2 class="px-20 mt-40 text-[#fff] text-4xl">Take the best path forward</h2>
+        <div class="w-full  grid lg:grid-cols-4 sm:grid-cols-2  px-20 mt-[50px] space-x-10 gap-y-6">
+            <div>
+                <img class="h-[50px]" src="./images/1.png" alt="">
+                <h4 class="text-xl text-[#fff] font-semibold mt-3">Start an online business</h4>
+                <p class="text-lg text-[#fff] mt-3">Create a business, whether you’ve <br> got a fresh idea or are looking for <br> a new way to make money.</p>
+            </div>
+            <div>
+                 <img class="h-[50px]" src="./images/2.png" alt="">
+                <h4 class="text-xl text-[#fff] font-semibold mt-3">Move your business online</h4>
+                <p class="text-lg text-[#fff] mt-3">Turn your retail store into an <br> online store and keep serving <br> customers without missing a <br> beat.</p>
+            </div>
+            <div>
+                <img class="h-[50px]" src="./images/3.png" alt="">
+                <h4 class="text-lg text-[#fff] mt-3">Switch to Shopify</h4>
+                <p class="text-lg text-[#fff] mt-3">Bring your business to Shopify, <br> no matter which ecommerce <br> platform you’re currently using.</p>
+            </div>
+            <div>
+                <img class="h-[50px]" src="./images/4.png" alt="">
+                <h4 class="text-lg text-[#fff] mt-3">Hire a Shopify expert</h4>
+                <p class="text-lg text-[#fff] mt-3">Get set up with the help of a <br> trusted freelancer or agency from <br> the Shopify Experts Marketplace.</p>
+            </div>
+    </section>
+    <!-- End of business-section -->
+    <!-- Sell-business -->
+    <section class="w-full">
+        <h1 class="text-center text-[#212326] sm:text-3xl lg:text-5xl font-semibold mt-20">With you wherever you're going</h1>
+        <p class="text-center sm:text-lg lg:text-2xl mt-5">One platform with all the ecommerce and point of sale features you need to start, run, <br> and grow your business.</p>
+        <div class="flex sm:flex-col lg:flex-row  w-full mt-20">
+            <div class="lg:w-1/2 sm:w-full lg:px-20 sm:px:40">
+                <video class="sm:ml:40 lg:ml:60 autoplay loop" src="./images/assets_Best Ecommerce Platform in India - Custom Ecommerce Software for Your Needs.webm"></video>
+            </div>
+            <div class="w-1/2 mt-20 lg:ml-40 sm:ml-20 lg:mr-40">
+                <h1 class="text-4xl">Sell everywhere</h1>
+                <p class="text-lg mt-5 mb-10">Use one platform to sell products to anyone, anywhere—in  person with Point of Sale and online through your website, social media, and online marketplaces.</p>
+                <a class="text-green text-lg font-bold" href="">Explore ways to sell&nbsp;<ion-icon class="right-arrow" name="arrow-forward-sharp"></ion-icon></a>
+            </div>
+        </div>
+        <div class="flex sm:flex-col-reverse lg:flex-row mt-10">
+            <div class="lg:px-20 sm:px-20 mt-20 lg:w-full sm:full ">
+                <h1 class="text-4xl">Market you business</h1>
+                <p class="text-lg mt-5 mb-10 ">Take the guesswork out of marketing with built-in tools that help you create, execute, and analyze digital marketing  campaigns.</p>
+                <a class="text-green text-md font-bold" href="">Explore how to market your business&nbsp;<ion-icon class="right-arrow" name="arrow-forward-sharp"></ion-icon></a>
+            </div>
+            <div class="lg:w-full sm:w-full block lg:mr-40">
+                <img class=" h-[400px] lg:w-[600px] sm:w-[1000px] " src="./images/phone-shoe.webp" alt="">
+            </div>
+        </div>
+        <div class="flex sm:flex-col lg:flex-row mt-10">
+            <div class="lg:w-1/2 sm:w-[420px] lg:px-20">
+                <img class="h-[350px] w-[500px] bg-[#fff] ml-8 shadow-2xl" src="./images/manage everything.png" alt="">
+            </div>
+            <div class="flex flex-col lg:px-20 sm:mt-10 ">
+                <h1 class="text-4xl px-20">Manage everything</h1>
+                <p class="text-lg mt-5 mb-10 px-20 ">Gain the insights you need to grow—use a single dashboard <br> to manage orders, shipping, and payments anywhere you go.</p>
+                <a class="text-green text-md font-bold px-20" href="">Explore how to manage your business&nbsp;<ion-icon class="right-arrow" name="arrow-forward-sharp"></ion-icon></a>
+            </div>
+        </div> 
+    </section>
+    <!-- End of sell-business -->
+    <!-- Explore-section -->
+    <section class="lg:w-full mt-20 bg-palegreen lg:h-[550px] sm:h-[800px]  ">
+        <h1 class="sm:text-2xl lg:text-4xl px-20 pt-10">Explore more from Shopify in India</h1>
+        <div class="flex sm:flex-col-reverse lg:flex-row bg-[#fff] lg:w-[1220px] sm:mt-[320px] lg:mt-10 h-[350px] sm:ml-0 lg:ml-20 mt-10    ">
+            <div class="mt-[20px] ">
+                    <span class="text-lg font-semibold px-10">START</span>
+                    <h3 class="text-3xl px-10 mt-5 mb-4">Launch your store with the help of a <br> Shopify Expert</h3>
+                    <p class="text-lg px-10 mb-5">Find hundreds of experts from India ready to help you get your <br> store up and running, from choosing a theme to building a fully customized site.</p>
+                    <a class="px-10 text-green font-bold" href="">Browse experts in India&nbsp;<ion-icon class="right-arrow" name="arrow-forward-sharp"></ion-icon></a>
+            </div>
+            <div>
+                <img  class="h-[300px] " src="./images/men.webp" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- End of explore -->
+    <!-- independent business section -->
+    <section class="h-[1650px] ">
+        <h1 class="text-4xl px-20 mt-10">Empowering independent business owners </h1>
+        <h1 class="text-4xl px-20 mt-2">everywhere</h1>
+        <p class="text-2xl px-20 mt-10 mb-5">Millions of businesses in <span class="font-bold">175 countries</span> around the world have <br> made over <span class="font-bold">$496 billion USD</span> in sales using Shopify.</p>
+        <a class="px-20 text-green font-bold " href="">Learn more about Shopify&nbsp;<ion-icon class="right-arrow" name="arrow-forward-sharp"></ion-icon></a>
+        <img class="mb-5 w-[1100px] mt-10 lg:ml-40 sm:ml-0" src="./images/map.png" alt="">
+        
+     
+        <div class="mt-20 flex sm:flex-col lg:flex-row bg-[#002e25] sm:w-[420px] lg:w-[1000px] lg:h-[500px] sm:ml-40 lg:ml-[180px] sm:ml-[25px] ">
+            <img class="w-[500px]" src="./images/Capturewomen.png" alt="">
+            <div class="grid justify-center" >
+                <p class="text-xl text-[#fff] font-semibold text-center py-20 px-10">“Shopify was my knight in shining armor when I exhausted every other possibility of getting my online store up and running. It was stunningly easy to use, with more features and plug-ins that I didn’t even know I wanted.”</p>
+                <img class="bg-[#002e25] lg:ml-[220px] mt-[-40px] sm:mt-[10px] ml-[130px] " src="./images/alicia.webp" alt="">
+                <p class=" mt-[-40px] text-[#fff] font-semibold sm:mt-5 text-center">Alicia | Alicia Souza</p>
+            </div>
+        </div>
+        <div class="flex sm:flex-wrap lg:flex-row sm:gap-y-10 justify-evenly mt-20 ">
+            <div><img class=" h-[50px]" src="./images/img1.webp" alt=""></div>
+            <div><img class=" h-[50px]" src="./images/2 (1).webp" alt=""></div>
+            <div><img class=" h-[50px]" src="./images/3.avif" alt=""></div>
+            <div><img class=" h-[50px]" src="./images/4 (1).webp" alt=""></div>
+            <div><img class=" h-[50px]" src="./images/5.avif" alt=""></div>
+            <div><img class=" h-[50px]" src="./images/6.webp" alt=""></div>
+            <div><img class=" h-[50px]" src="./images/7.webp" alt=""></div>
+            
+        </div>
+    </section>
+    <!-- End of independent business section-->
+    <!-- Get help section -->
+    <div class="bg-biscuit sm:h-[710px] lg:h-[550px] flex sm:flex-col lg:flex-row justify-between sm:mt-[500px] lg:mt-0">
+        <div class="ml-20">
+            <h1 class="text-4xl mt-10 mb-10">Get the help you need, every step of <br> the way</h1>
+            <div class="flex sm:flex-col lg:flex-row justify-between mb-10">
+                <div class="grid gap-y-2 sm:mb-5">
+                    <h4 class="font-semibold text-xl">Shopify support</h4>
+                    <p class="text-lg">Contact support 24/7, whether you’re <br> troubleshooting issues or looking for <br> business advice.</p>
+                    <a class="text-green font-bold" href="">Contact Support&nbsp;<ion-icon class="right-arrow" name="arrow-forward-sharp"></ion-icon></a>
+                </div>
+                <div class="grid gap-y-2 sm:ml-0 lg:ml-20">
+                    <h4 class="font-semibold text-xl">Shopify App Store</h4>
+                    <p class="text-lg">Add features and functionality to your <br> business with 6,000+ apps that integrate <br> directly with Shopify.</p>
+                    <a class="text-green font-bold" href="">Visit the Shopify App Store&nbsp;<ion-icon class="right-arrow" name="arrow-forward-sharp"></ion-icon></a>
+                </div>
+            </div>
+            <div class="grid gap-y-2 sm:mb-5">
+                <h4 class="font-semibold text-xl">Shopify Experts Marketplace</h4>
+                <p class="text-lg">Hire a Shopify expert to help you with <br> everything from store setup to SEO.</p>
+                <a class="text-green font-bold" href="">Explore the shopify expert's market place&nbsp;<ion-icon class="right-arrow" name="arrow-forward-sharp"></ion-icon></a>
+            </div>
+            
+        </div>
+        <div>
+            <img class="sm:w-full lg:w-[400px] h-[450px] " src="./images/new mid.jpg" alt="">
+        </div>
+        
+    </div>
+    <!-- End of gethelp -->
+    <!-- free-trial section -->
+    <div class="text-center sm:mt-[500px] lg:mt-20 gap-y-5 flex flex-col items-center justify-center">
+        <h1 class="sm:text-2xl lg:text-4xl font-semibold text-[#212326]">Start your business journey with Shopify</h1>
+        <p class="text-gray sm:text-[14px] lg:text-lg">Try Shopify for free, and explore all the tools and services you need to <br> start, run, and grow your business.</p>
+        <a class="border-2 border-green w-[200px] px-2 py-3 rounded-lg bg-green text-[#fff] text-xl font-semibold hover:bg-[#004c3f] hover:scale-105" href="">Start Free Trial</a>
+        <a class="text-xl text-green font-semibold sm:ml-0 lg:ml-[1000px]" href="">Back to top&nbsp;<ion-icon class="right-arrow" name="arrow-up-sharp"></ion-icon></a>
+    </div>
+    <!-- End pf free-trial -->
+    <!-- footer-section -->
+    <footer class="sm:h-[1000px] lg:h-[650px] bg-[#002e25] mt-10 w-full">
+        <div class="flex sm:ml-0 lg:ml-10 sm:justify-center lg:justify-start">
+            <a class="ml-10 mt-5 text-[#fff] font-bold" href="">About</a>
+            <a class="ml-10 mt-5 text-[#fff] font-bold" href="">Careers</a>
+            <a class="ml-10 mt-5 text-[#fff] font-bold" href="">Press and Media</a>
+            <a class="ml-10 mt-5 text-[#fff] font-bold" href="">Shopify Plus</a>
+            <a class="ml-10 mt-5 text-[#fff] font-bold" href="">Sitemap</a>
+        </div>
+        <hr class="text-[#6a7076] w-[1200px] my-3 ml-[80px] sm:hidden lg:block">
+        <div class="flex sm:flex-wrap md:flex-wrap justify-evenly my-10">
+            <div >
+                <h3 class="text-[#fff] font-bold mb-3">ONLINE STORE</h3>
+                <ul class="text-[#98abb7] grid gap-y-2 ">
+                    <li class="hover:text-[#fff] hover:transition-all cursor-pointer">Sell online</li>
+                    <li class="hover:text-[#fff] hover:transition-all cursor-pointer">Features</li>
+                    <li class="hover:text-[#fff] hover:transition-all cursor-pointer">Examples</li>
+                    <li class="hover:text-[#fff] hover:transition-all cursor-pointer">Website Builder</li>
+                    <li class="hover:text-[#fff] hover:transition-all cursor-pointer">Mobile commerce</li>
+                    <li class="hover:text-[#fff] hover:transition-all cursor-pointer">Online Retail</li>
+                    <li class="hover:text-[#fff] hover:transition-all cursor-pointer">Ecommerce software</li>
+                    <li class="hover:text-[#fff] hover:transition-all cursor-pointer">Online store builder</li>
+                    <li class="hover:text-[#fff] hover:transition-all cursor-pointer">Dropshipping business</li>
+                    <li class="hover:text-[#fff] hover:transition-all cursor-pointer">Store themes</li>
+                </ul>
+            </div>
+            <div>
+                <ul class="text-[#98abb7] sm:hidden lg:block">
+                    <br>
+                    <li class="mb-2 hover:text-[#fff] hover:transition-all cursor-pointer">Ecommerce website</li>
+                    <li class="mb-2 hover:text-[#fff] hover:transition-all cursor-pointer">Domain names</li>
+                    <li class="mb-2 hover:text-[#fff] hover:transition-all cursor-pointer">Themes</li>
+                    <li class="mb-2 hover:text-[#fff] hover:transition-all cursor-pointer">Shopping cart</li>
+                    <li class="mb-2 hover:text-[#fff] hover:transition-all cursor-pointer">E-commerce hosting</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-[#fff] font-bold mb-2">POINT OF SALE</h3>
+                <ul class="text-[#98abb7] grid gap-y-2">
+                    <li class="hover:text-[#fff] hover:transition-all cursor-pointer">Point of sale</li>
+                    <li class="hover:text-[#fff] hover:transition-all cursor-pointer">Features</li>
+                </ul>
+            </div>
+            <div class="grid gap-y-2 ">
+                <h3 class="text-[#fff] font-bold">SUPPORT</h3>
+                <ul class="text-[#98abb7] grid gap-y-2">
+                    <li class="hover:text-[#fff] hover:transition-all cursor-pointer">24/7 support</li>
+                    <li class="hover:text-[#fff] hover:transition-all cursor-pointer">Shopify help center</li>
+                    <li class="hover:text-[#fff] hover:transition-all cursor-pointer">Shopify Community</li>
+                    <li class="hover:text-[#fff] hover:transition-all cursor-pointer">API Documentation</li>
+                    <li class="hover:text-[#fff] hover:transition-all cursor-pointer">Free tools</li>
+                    <li class="hover:text-[#fff] hover:transition-all cursor-pointer">Free stock photos</li>
+                    <li class="hover:text-[#fff] hover:transition-all cursor-pointer">Websites for sale</li>
+                    <li class="hover:text-[#fff] hover:transition-all cursor-pointer">Logo maker</li>
+                    <li class="hover:text-[#fff] hover:transition-all cursor-pointer">Business name generator</li>
+                    <li class="hover:text-[#fff] hover:transition-all cursor-pointer">Research</li>
+                    <li class="hover:text-[#fff] hover:transition-all cursor-pointer">Legal</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-[#fff] font-bold mb-3">SHOPIFY</h3>
+                <ul class="text-[#98abb7] grid gap-y-2">
+                    <li class="hover:text-[#fff] hover:transition-all cursor-pointer">Contact</li>
+                    <li class="hover:text-[#fff] hover:transition-all cursor-pointer">Partner program</li>
+                    <li class="hover:text-[#fff] hover:transition-all cursor-pointer">Affiliate program</li>
+                    <li class="hover:text-[#fff] hover:transition-all cursor-pointer">App developers</li>
+                    <li class="hover:text-[#fff] hover:transition-all cursor-pointer">Investors</li>
+                    <li class="hover:text-[#fff] hover:transition-all cursor-pointer">Blog topics</li>
+                    <li class="hover:text-[#fff] hover:transition-all cursor-pointer">Community events</li>
+                </ul>
+            </div>
+        </div>
+        <hr class="text-[#6a7076] w-[1200px] my-3 ml-[80px] sm:hidden lg:block">
+        <div class="flex sm:flex-col lg:flex-row justify-between ">
+            <div class="flex items-center sm:justify-center mt-10 sm:ml-0 lg:ml-40">
+                <a class="ml-5 hover:scale-150" href=""><ion-icon class="text-xl text-[#fff] items-center " name="logo-facebook"></ion-icon></a>
+                <a class="ml-5 hover:scale-150" href=""><ion-icon class="text-xl text-[#fff] items-center " name="logo-twitter"></ion-icon></a>
+                <a class="ml-5 hover:scale-150" href=""><ion-icon class="text-xl text-[#fff] items-center " name="logo-youtube"></ion-icon></a>
+                <a class="ml-5 hover:scale-150" href=""><ion-icon class="text-xl text-[#fff] items-center " name="logo-instagram"></ion-icon></a>
+                <a class="ml-5 hover:scale-150" href=""><ion-icon class="text-xl text-[#fff] items-center " name="logo-linkedin"></ion-icon></a>
+                <a class="ml-5 hover:scale-150" href=""><ion-icon class="text-xl text-[#fff] items-center " name="logo-pinterest"></ion-icon></a>
+            </div>
+            <div class="flex mt-[50px] sm:mr-0 justify-center lg:mr-40">
+                <span class="ml-5 text-[#fff]">Terms of service</span>
+                <span class="ml-5 text-[#fff]">Privacy policy&nbsp;&nbsp;</span>
+                <a class="text-[#fff]" href=""><ion-icon class="globe" name="globe-sharp"></ion-icon>&nbsp;&nbsp;India&nbsp;<ion-icon class="globe" name="caret-down-outline"></ion-icon></a>
+            </div>
+        </div>
+        
+    </footer>
+    <!-- End of footer-section -->
+
+     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
